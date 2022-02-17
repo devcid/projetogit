@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int fatorial(n) // esta funcao calcula um fatorial
+int fatorial(numero) // esta funcao calcula um fatorial
 {               // de um numero inserido na main
-    if (n == 1)
+    if (numero == 1)
         return 1;
     else
-        return n * fatorial(n - 1);
+        return numero * fatorial(numero - 1);
 }
 
 int main(void)
